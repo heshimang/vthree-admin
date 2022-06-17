@@ -13,4 +13,10 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
 2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
 
+3. install extension 'volar'
+4. install packages by pnpm or yarn (must be install package, or else when step 5 check 'use workspace version' will info 'not valid version')
+5. type 'command+shift+p', input 'typescript', check 'Volar: Select Volar version' & check 'use workspace version'
+
+ps: https://github.com/vitejs/vite/issues/965#issuecomment-717248892
+
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
