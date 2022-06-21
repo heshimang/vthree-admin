@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/node': ^18.0.0
   '@typescript-eslint/eslint-plugin': ^5.28.0
   '@typescript-eslint/parser': ^5.28.0
   '@vitejs/plugin-vue': ^2.3.3
@@ -14,13 +15,16 @@ specifiers:
   unplugin-vue-components: ^0.19.6
   vite: ^2.9.9
   vue: ^3.2.25
+  vue-router: '4'
   vue-tsc: ^0.34.7
 
 dependencies:
   ant-design-vue: 3.2.7_vue@3.2.37
   vue: 3.2.37
+  vue-router: 4.0.16_vue@3.2.37
 
 devDependencies:
+  '@types/node': 18.0.0
   '@typescript-eslint/eslint-plugin': 5.28.0_fe28c36a09305ff6004282ca7beab41d
   '@typescript-eslint/parser': 5.28.0_eslint@8.17.0+typescript@4.7.3
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.12+vue@3.2.37
@@ -147,6 +151,10 @@ packages:
 
   /@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
+    dev: true
+
+  /@types/node/18.0.0:
+    resolution: {integrity: sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==}
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.28.0_fe28c36a09305ff6004282ca7beab41d:
@@ -349,6 +357,10 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.2.37
       '@vue/shared': 3.2.37
+
+  /@vue/devtools-api/6.1.4:
+    resolution: {integrity: sha512-IiA0SvDrJEgXvVxjNkHPFfDx6SXw0b/TUkqMcDZWNg9fnCAHbTpoo59YfJ9QLFkwa3raau5vSlRVzMSLDnfdtQ==}
+    dev: false
 
   /@vue/reactivity-transform/3.2.37:
     resolution: {integrity: sha512-IWopkKEb+8qpu/1eMKVeXrK0NLw9HicGviJzhJDEyfxTR9e1WtpnnbYkJWurX6WwoFP0sz10xQg8yL8lgskAZg==}
@@ -1705,6 +1717,15 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /vue-router/4.0.16_vue@3.2.37:
+    resolution: {integrity: sha512-JcO7cb8QJLBWE+DfxGUL3xUDOae/8nhM1KVdnudadTAORbuxIC/xAydC5Zr/VLHUDQi1ppuTF5/rjBGzgzrJNA==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.1.4
+      vue: 3.2.37
+    dev: false
 
   /vue-tsc/0.34.17_typescript@4.7.3:
     resolution: {integrity: sha512-jzUXky44ZLHC4daaJag7FQr3idlPYN719/K1eObGljz5KaS2UnVGTU/XSYCd7d6ampYYg4OsyalbHyJIxV0aEQ==}

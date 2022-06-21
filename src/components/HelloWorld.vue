@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import { message } from 'ant-design-vue';
+import { ref } from 'vue'
+import { message } from 'ant-design-vue'
 
-defineProps<{ msg: string }>();
+defineProps<{ msg: string }>()
 
-const count = ref(0);
+const count = ref(0)
 
 const sayHello = () => {
-  message.success('Hello, Ant-design!');
-};
+  message.success('Hello, Ant-design!')
+}
 </script>
 
 <template>

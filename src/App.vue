@@ -1,17 +1,20 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import { ref } from 'vue'
+import HelloWorld from './components/HelloWorld.vue'
 
-let name = ref('heshimang');
+let name = ref('heshimang')
 
 function changeName() {
-  name.value = 'John';
+  name.value = 'John'
 }
 </script>
 
 <template>
-  <HelloWorld :msg="name" />
-  <button @click="changeName">change name</button>
+  <a-config-provider>
+    <HelloWorld :msg="name" />
+    <button @click="changeName">change name</button>
+    <router-view></router-view>
+  </a-config-provider>
 </template>
 
 <style>

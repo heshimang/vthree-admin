@@ -25,3 +25,11 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 ## Features
 
 - ant-design 按需引入
+
+
+
+
+## Problems
+1. Could not find a declaration file for module '@/views/main/index.vue'. '/Users/hsm/github/vthree-admin/src/views/main/index.vue.js' implicitly has an 'any' type.ts(7016)
+  
+  添加env.d.ts文件解决

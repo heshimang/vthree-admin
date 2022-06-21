@@ -8,7 +8,7 @@ module.exports = {
 	// 使用制表符true空格false缩进行
 	useTabs: false,
 	// 结尾不用分号(true有，false没有)
-	semi: true,
+	semi: false,
 	// 使用单引号(true单引号，false双引号)
 	singleQuote: true,
 	// 更改引用对象属性的时间 可选值"<as-needed|consistent|preserve>"
